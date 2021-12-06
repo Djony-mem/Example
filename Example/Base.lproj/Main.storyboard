@@ -16,19 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7cb-L0-p5z">
-                                <rect key="frame" x="163" y="323" width="49" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PMb-8b-HEh">
+                                <rect key="frame" x="166" y="88" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fO-f9-OxE">
+                                <rect key="frame" x="154" y="544" width="67" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="67" id="x6U-au-gAM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
-                            <constraint firstItem="7cb-L0-p5z" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="PS4-59-bds"/>
-                            <constraint firstItem="7cb-L0-p5z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="163" id="eLk-4O-Ceu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7cb-L0-p5z" secondAttribute="trailing" constant="163" id="gF7-Rz-eBe"/>
+                            <constraint firstItem="PMb-8b-HEh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="8On-gp-jXd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1fO-f9-OxE" secondAttribute="bottom" constant="92" id="IJY-1g-818"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PMb-8b-HEh" secondAttribute="trailing" constant="167" id="P1W-XC-AGM"/>
+                            <constraint firstItem="PMb-8b-HEh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="88" id="SjW-PW-wMt"/>
+                            <constraint firstItem="1fO-f9-OxE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="znt-CN-EJc"/>
                         </constraints>
                     </view>
                 </viewController>
